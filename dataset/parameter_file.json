@@ -1,0 +1,33 @@
+{
+	"name": "parameter_file",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "niksstorelink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "git.json",
+				"fileSystem": "parameters"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"dyn_files": {
+					"type": "string"
+				},
+				"filename_folder": {
+					"type": "string"
+				},
+				"filename": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

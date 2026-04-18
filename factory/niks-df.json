@@ -1,0 +1,9 @@
+{
+	"name": "niks-df",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b3896fea-afea-4749-8ac0-a105844be1ee",
+		"tenantId": "47cbb623-e61c-498e-9ebd-b318b307b35f"
+	}
+}
